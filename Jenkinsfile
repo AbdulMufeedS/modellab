@@ -4,7 +4,7 @@ pipeline{
         stage('Checkout'){
             steps{
                 git branch: 'main'
-                urls:'https://github.com/AbdulMufeedS/modellab'
+                urls:'https://github.com/AbdulMufeedS/modellab.git
             }
         }
         stage('Install'){
